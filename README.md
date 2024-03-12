@@ -14,3 +14,13 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+**Run the test:**
+-> Plug-in your device or start your emulator.
+
+-> At the command line, navigate to the project's root directory and enter the following command:
+$ flutter drive \
+  --driver=test_driver/perf_driver.dart \
+  --target=integration_test/perf_test.dart \
+  --profile \
+  --no-dds
